@@ -18,6 +18,7 @@ var (
 	dir      string
 	head     = `<html>
 	<form action="/newdir/" method="POST">
+		<h1>Fileserver by: Boschko</h1>
 		<input type="text" name="dirname">
 		<input type="submit" value="New directory">
 	</form>
