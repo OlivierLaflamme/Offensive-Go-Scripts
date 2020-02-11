@@ -1,5 +1,5 @@
 # Offensive Go
-New to golang, best way to learn is by making scripts.
+New to golang, best way to learn is by making scripts. Most of these are solid derivatives of python scripts I or other people have made but in Go. 
 
  
 
