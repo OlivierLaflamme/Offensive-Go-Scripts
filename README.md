@@ -1,4 +1,4 @@
-# Pentesting_GoLang
+# Offensive GoLang
 I'll personally use this repo as a point of reference if ever I forget go basics. Anything `golang` related that I make and learn will end up here.     
 
 
