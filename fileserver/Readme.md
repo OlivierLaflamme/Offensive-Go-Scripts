@@ -3,9 +3,9 @@
 Usage
 ------------
 
-Example:
-without building: `go run filserver.go`   
-building: `go build -ldflags "-w -s" filserver.go`    
+Example:    
+Running: `go run filserver.go`   
+Building: `go build -ldflags "-w -s" filserver.go`    
 
 or build
 
