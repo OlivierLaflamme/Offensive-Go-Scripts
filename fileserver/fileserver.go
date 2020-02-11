@@ -1,15 +1,3 @@
-//Simple file server, support manage files
-
-// Usage of fileserver.exe:
-//   -dir string
-//         file dir (default "./")
-//   -pass string
-//         password
-//   -port string
-//         http port (default "80")
-//   -user string
-//         username
-
 package main
 
 import (
