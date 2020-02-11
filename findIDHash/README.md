@@ -18,7 +18,7 @@ Example: go run findIDHash.go -file hash.txt
 
 or build
 
-*   env GOOS=windows GOARCH=386 go build -v findIDHashgo
+*   env GOOS=windows GOARCH=386 go build -v findIDHash.go
 *   env GOOS=linux GOARCH=amd64 go build -v findIDHash.go
 
 hashcathash.csv file provided in this repo is required
