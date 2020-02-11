@@ -1,5 +1,5 @@
 # Offensive Go
-I'll personally use this repo as a point of reference if ever I forget go basics. Anything `golang` related that I make and learn will end up here.     
+New to golang, best way to learn is by making scripts.
 
 
 ### My Scripts 
