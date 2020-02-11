@@ -7,5 +7,4 @@ New to golang, best way to learn is by making scripts.
 - [findIDHash](https://github.com/OlivierLaflamme/Pentesting_GoLang/blob/master/findIDHash/findIDHash.go) => Takes a hash, calculates the length, and compares the length against hashcat's generic hash types    
 
 
-### Python CTF scripts translated to Go
 
