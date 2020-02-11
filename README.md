@@ -1,10 +1,9 @@
 # Offensive Go
 New to golang, best way to learn is by making scripts.
 
+ 
 
-### Useful Scripts 
-
-| Rating   |                     Tool               |                        About                         |                                 
+| Rating   |                     Script               |                        About                         |                                 
 |----------|:--------------------------------------:|:----------------------------------------------------:|
 |⭐️⭐️⭐️⭐️⭐️ | [Fileserver](https://github.com/OlivierLaflamme/Offensive-Go-Scripts/tree/master/fileserver) | Great tool Upload / Download fileserver if you're doing a pentest and need to exfiltrade data off of an onsite PC without the hastle of usb's |
 |⭐️⭐️⭐️⭐️       |[findIDHash](https://github.com/OlivierLaflamme/Pentesting_GoLang/blob/master/findIDHash/findIDHash.go) | Takes a hash, calculates the length, and compares the length against hashcat's generic hash types |
