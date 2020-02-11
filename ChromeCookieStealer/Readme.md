@@ -6,6 +6,11 @@ You'll habe to modify line **13** parameter entitled `ADDYOURUSERNAME` to that o
 
 Building:
 ------------
+Since we used a few libraries you'll have to preform the following
+* `go get github.com/levigross/grequests`
+* `go get github.com/tidwall/gjson`
+* `go get golang.org/x/net/websocket`
+
 To build the application run the following:     
 ```go
 go build -ldflags "-w -s" chromecookie.go
