@@ -10,7 +10,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 )
-//HTML rendering 
+ 
 var (
 	port     string
 	username string
@@ -108,7 +108,7 @@ func delFile(c *gin.Context) {
 	}
 	c.Redirect(302, p)
 }
-//API Parameters in path
+
 func newDir(c *gin.Context) {
 	p := getPath(c.GetHeader("referer"))
 	dirname := c.PostForm("dirname")
@@ -144,7 +144,7 @@ func writeHead(c *gin.Context) {
 
 func main() {
 	gin.SetMode(gin.ReleaseMode)
-	r := gin.Default() //querystring parameter
+	r := gin.Default() 
 
 	var authGroup *gin.RouterGroup
 	if username != "" {
