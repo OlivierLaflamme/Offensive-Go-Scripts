@@ -16,6 +16,9 @@ Building: `go build -ldflags "-w -s" filserver.go`
 
 Run: `Make` will build for all OS compatibilities 
 
+Usage  
+----------
+
 |Parameter     |Description  |
 |-----------    |-------------------------------------------------------|
 |-h, --help     | show help message and exit                            |
@@ -23,7 +26,6 @@ Run: `Make` will build for all OS compatibilities
 |-pass (string) | password                                              |
 |-port (string) | http port (default "80")                              |
 |-user (string) | username                                              |
-
 
 
 Example
