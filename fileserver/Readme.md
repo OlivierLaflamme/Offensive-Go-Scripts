@@ -7,7 +7,7 @@ Example:
 Running: `go get github.com/gin-gonic/gin && go run filserver.go`   
 Building: `go get github.com/gin-gonic/gin && go build -ldflags "-w -s" filserver.go`    
 
-**Or build**
+**Or build**     
 First run: `go get github.com/gin-gonic/gin`    
 *   env GOOS=windows GOARCH=386 go build -v filserver.go
 *   env GOOS=linux GOARCH=amd64 go build -v filserver.go
