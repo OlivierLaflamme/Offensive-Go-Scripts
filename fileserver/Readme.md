@@ -7,11 +7,14 @@ Example:
 Running: `go run filserver.go`   
 Building: `go build -ldflags "-w -s" filserver.go`    
 
-or build
+**Or build**
 
 *   env GOOS=windows GOARCH=386 go build -v filserver.go
 *   env GOOS=linux GOARCH=amd64 go build -v filserver.go
 
+**Or Makefile**
+
+Run: `Make` will build for all OS compatibilities 
 
 |Parameter     |Description  |
 |-----------    |-------------------------------------------------------|
