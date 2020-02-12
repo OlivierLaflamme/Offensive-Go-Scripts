@@ -2,8 +2,7 @@
 
 Usage
 ------------
-
-Example:    
+[You only have to run `go get github.com/gin-gonic/gin` once]    
 Running: `go get github.com/gin-gonic/gin && go run filserver.go`   
 Building: `go get github.com/gin-gonic/gin && go build -ldflags "-w -s" filserver.go`    
 
