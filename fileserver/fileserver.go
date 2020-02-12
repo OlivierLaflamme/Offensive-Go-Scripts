@@ -108,7 +108,7 @@ func delFile(c *gin.Context) {
 	}
 	c.Redirect(302, p)
 }
-
+//API Parameters in path
 func newDir(c *gin.Context) {
 	p := getPath(c.GetHeader("referer"))
 	dirname := c.PostForm("dirname")
@@ -144,7 +144,7 @@ func writeHead(c *gin.Context) {
 
 func main() {
 	gin.SetMode(gin.ReleaseMode)
-	r := gin.Default()
+	r := gin.Default() //querystring parameter
 
 	var authGroup *gin.RouterGroup
 	if username != "" {
