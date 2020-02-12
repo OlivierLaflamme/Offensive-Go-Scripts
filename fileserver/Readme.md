@@ -31,7 +31,7 @@ Usage
 Example
 ----------
 
-### Start the go fileserver with authentication: 
+<h4> Start the go fileserver with authentication: </h4>    
 ![image](https://user-images.githubusercontent.com/25066959/74278421-32b37700-4ce7-11ea-9233-009e0ce04d88.png)    
 
 ### Login with credentials 
