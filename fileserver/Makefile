@@ -6,6 +6,9 @@ LDFLAGS="-s -w"
 
 all: clean windows linux darwin
 
+deps:
+	$(GOGET) github.com/gin-gonic/gin
+	
 windows:
 	@mkdir -p ${TARGET} ; \
 	for GOARCH in ${ARCHS}; do \
