@@ -2,7 +2,10 @@
 ![Build](https://img.shields.io/badge/build-passing-green) ![CC](https://img.shields.io/badge/license-cc--by--sa--4.0--Licence-blue) ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Offensive-Go-Scripts)
 ------------
 
-This is a fileserver written in golang. As of now, this fileserver will not provide encryption or any other securiy measures besides  logon authentication (if ran with -pass & -user flags configured) - this is just a simple fileserver. The script itself was (kinda but not really) inspired by [UniIsland/SimpleHTTPServerWithUpload.py](https://gist.github.com/UniIsland/3346170) a well know python SimpleHTTPServer 'config' - however my fileserver actually works out of the box because its not from 2012 using depricated. 
+This is a fileserver written in golang. As of now, this fileserver will not provide encryption or any other security measures besides  logon authentication (if ran with -pass & -user flags configured) - this is just a simple fileserver. The script itself was (kinda but not really) inspired by [UniIsland/SimpleHTTPServerWithUpload.py](https://gist.github.com/UniIsland/3346170) a well know python SimpleHTTPServer 'config' - however my fileserver actually works out of the box because its not from 2012 using deprecated.     
+
+As it stands, this fileserver doesn't support multiple file uploads - you can only upload one file at a time so trying to upload an array of files using `curl -X POST http://IP:80 -F "upload[]=@/Users/test/a.exe" -F "upload[]=@/Users/mtk10671/b.dll" -H "Content-Type: multipart/form-data"`... Moreover, this is simply not the intent / use case of this script.
+
 
 Getting Started
 ------------
