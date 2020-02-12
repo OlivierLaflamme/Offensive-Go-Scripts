@@ -1,4 +1,4 @@
-# FileServer which supports uploads 
+# FileServer which uploads 
 ![Build](https://img.shields.io/badge/build-passing-green) ![CC](https://img.shields.io/badge/license-cc--by--sa--4.0--Licence-blue) ![COMMIT](https://img.shields.io/github/last-commit/OlivierLaflamme/Offensive-Go-Scripts)
 ------------
 
