@@ -10,7 +10,7 @@ import (
 
 	"github.com/gin-gonic/gin"
 )
-
+//HTML rendering 
 var (
 	port     string
 	username string
