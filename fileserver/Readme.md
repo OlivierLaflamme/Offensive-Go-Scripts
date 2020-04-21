@@ -9,7 +9,7 @@ As it stands, this fileserver doesn't support multiple file uploads - you can on
 
 Getting Started
 ------------
-For those of you who are new to go and just want to run this ~ you only have to run `go get github.com/gin-gonic/gin` once.    
+For those of you who are new to go and just want to run this ~ **you only have to run `go get github.com/gin-gonic/gin` once.**    
 
 Running: `go get github.com/gin-gonic/gin && go run filserver.go`   
 Building: `go get github.com/gin-gonic/gin && go build -ldflags "-w -s" filserver.go`    
